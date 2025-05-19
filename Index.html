@@ -1,6 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+     <style>.logo-small {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: auto;
+    z-index: 1000;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ddad72;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.card h2 {
+    margin: 15px 0 10px;
+}
+.price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+.buy-button {
+    background-color: #4d9dff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.buy-button:hover {
+    background-color: #00a9e6;
+}</style>
     <meta charset="UTF-8">
     <title>Mcfarland Toys</title>
     <img src="Logo.jpg" alt="" class="logo-small">
